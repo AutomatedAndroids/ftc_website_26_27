@@ -1,8 +1,5 @@
-// TODO: replace with real sponsors once confirmed
-const sponsors = [
-  { name: 'Your Company Here', tier: 'Title Sponsor' },
-  { name: 'Your Company Here', tier: 'Gold Sponsor' },
-]
+// TODO: add more sponsors as they're confirmed
+const sponsors = [{ name: 'Google.org', tier: 'Development Grant Partner' }]
 
 export default function Sponsors() {
   return (
@@ -32,7 +29,7 @@ export default function Sponsors() {
           build robots and grow in STEM.
         </p>
         <a
-          href="mailto:automatedandroids@example.com"
+          href="mailto:john.novotny@gmail.com"
           className="mt-6 inline-block rounded-md bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500"
         >
           Contact Us

@@ -1,5 +1,11 @@
 // TODO: add more sponsors as they're confirmed
-const sponsors = [{ name: 'Google.org', tier: 'Development Grant Partner' }]
+const sponsors = [
+  {
+    name: 'Google.org',
+    tier: 'Development Grant Partner',
+    blurb: 'Awarded Automated Androids a development grant supporting our robot build and STEM outreach.',
+  },
+]
 
 export default function Sponsors() {
   return (
@@ -14,10 +20,11 @@ export default function Sponsors() {
         {sponsors.map((sponsor) => (
           <div
             key={sponsor.name}
-            className="flex h-32 flex-col items-center justify-center rounded-lg border border-slate-800 bg-slate-900/50 p-5 text-center"
+            className="flex flex-col items-center justify-center rounded-lg border border-slate-800 bg-slate-900/50 p-5 text-center"
           >
             <p className="font-semibold text-white">{sponsor.name}</p>
-            <p className="text-sm text-gray-400">{sponsor.tier}</p>
+            <p className="text-sm text-blue-400">{sponsor.tier}</p>
+            {sponsor.blurb && <p className="mt-2 text-sm text-gray-400">{sponsor.blurb}</p>}
           </div>
         ))}
       </div>

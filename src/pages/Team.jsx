@@ -44,7 +44,7 @@ const members = [
     photo: '/team/leran-wang.jpg',
   },
   {
-    name: 'Ethan',
+    name: 'Ethan Zhang',
     role: 'Hardware',
     bio: 'Hardware expert; built the practice course in the basement and helped the software team organize their agenda.',
     photo: '/team/ethan.jpg',

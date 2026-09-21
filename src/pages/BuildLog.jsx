@@ -31,12 +31,17 @@ export default function BuildLog() {
               {entry.items.map((item, i) => (
                 <li key={i} className="text-gray-300">
                   <span className="font-medium text-white">{item.who}</span> &mdash; {item.what}
-                  {item.photo && (
-                    <img
-                      src={item.photo}
-                      alt={item.what}
-                      className="mt-2 max-h-96 rounded-lg border border-slate-800 object-cover"
-                    />
+                  {item.photos?.length > 0 && (
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {item.photos.map((src) => (
+                        <img
+                          key={src}
+                          src={src}
+                          alt={item.what}
+                          className="max-h-96 rounded-lg border border-slate-800 object-cover"
+                        />
+                      ))}
+                    </div>
                   )}
                 </li>
               ))}

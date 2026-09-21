@@ -49,6 +49,12 @@ const members = [
     bio: 'Hardware expert; built the practice course in the basement and helped the software team organize their agenda.',
     photo: '/team/ethan.jpg',
   },
+  {
+    name: 'Jeremy Xu',
+    role: 'CAD Design',
+    bio: 'Participates in CAD design, modeling components for the robot.',
+    photo: '/team/jeremy-xu.jpg',
+  },
 ]
 
 const coaches = [

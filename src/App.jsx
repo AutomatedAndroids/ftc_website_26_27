@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer.jsx'
 import Navbar from './components/Navbar.jsx'
+import BuildLog from './pages/BuildLog.jsx'
 import Home from './pages/Home.jsx'
 import Robot from './pages/Robot.jsx'
 import Sponsors from './pages/Sponsors.jsx'
@@ -14,6 +15,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/robot" element={<Robot />} />
+          <Route path="/log" element={<BuildLog />} />
           <Route path="/team" element={<Team />} />
           <Route path="/sponsors" element={<Sponsors />} />
         </Routes>

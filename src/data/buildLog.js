@@ -13,6 +13,7 @@ export const buildLog = [
       {
         who: 'Leran, Andrew, Jeremy, and Ethan',
         what: "Built the base chassis, then started designing the robot's wheels in CAD.",
+        photo: '/log/2026-09-20-chassis.jpg',
       },
     ],
   },

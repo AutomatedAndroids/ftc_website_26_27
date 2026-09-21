@@ -27,10 +27,17 @@ export default function BuildLog() {
             <p className="text-sm font-semibold uppercase tracking-wide text-blue-400">
               {formatDate(entry.date)}
             </p>
-            <ul className="mt-3 space-y-2">
+            <ul className="mt-3 space-y-4">
               {entry.items.map((item, i) => (
                 <li key={i} className="text-gray-300">
                   <span className="font-medium text-white">{item.who}</span> &mdash; {item.what}
+                  {item.photo && (
+                    <img
+                      src={item.photo}
+                      alt={item.what}
+                      className="mt-2 max-h-96 rounded-lg border border-slate-800 object-cover"
+                    />
+                  )}
                 </li>
               ))}
             </ul>

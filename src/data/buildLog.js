@@ -13,7 +13,11 @@ export const buildLog = [
       {
         who: 'Niels',
         what: 'Made a mold to cast silicone wheels for the final robot, used to get the right compression for the wheels.',
-        photos: ['/log/2026-09-27-cast-wheels.jpg'],
+      },
+      {
+        who: 'Josh and Ryan',
+        what: 'Continued testing and assembling the pollen shooter.',
+        photos: ['/log/2026-09-27-pollen-shooter.jpg'],
       },
       {
         who: 'The team',

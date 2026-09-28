@@ -12,7 +12,8 @@ export const buildLog = [
       },
       {
         who: 'Niels',
-        what: 'Made a mold to cast wheels, used to get the right compression for the wheels. These wheels are used on the prototype robot.',
+        what: 'Made a mold to cast silicone wheels for the final robot, used to get the right compression for the wheels.',
+        photos: ['/log/2026-09-27-cast-wheels.jpg'],
       },
       {
         who: 'The team',

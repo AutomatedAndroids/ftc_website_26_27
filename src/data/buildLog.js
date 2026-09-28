@@ -3,6 +3,30 @@
 // Photos go in public/log/ — photos is optional per item and can hold more than one.
 export const buildLog = [
   {
+    date: '2026-09-27',
+    items: [
+      {
+        who: 'The team',
+        what: 'Building 3 robots. First, a chassis robot where we can test code, the Limelight, and mobilization efficacy.',
+        photos: ['/log/2026-09-27-chassis-bot.jpg'],
+      },
+      {
+        who: 'Niels',
+        what: 'Made a mold to cast wheels, used to get the right compression for the wheels. These wheels are used on the prototype robot.',
+      },
+      {
+        who: 'The team',
+        what: 'Second, the prototype robot, which holds all of our tested final components and will serve as the final robot.',
+        photos: ['/log/2026-09-27-final-bot.jpg'],
+      },
+      {
+        who: 'The team',
+        what: "Third, last year's starter bot, which we are taking apart for spare parts.",
+        photos: ['/log/2026-09-27-old-bot.jpg'],
+      },
+    ],
+  },
+  {
     date: '2026-09-20',
     items: [
       {

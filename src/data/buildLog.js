@@ -13,6 +13,7 @@ export const buildLog = [
       {
         who: 'Niels',
         what: "Calibrated the robot's encoded movement in Java.",
+        photos: ['/log/2026-10-18-calibration.jpg'],
       },
       {
         who: 'Josh and Ryan',

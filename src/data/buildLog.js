@@ -23,6 +23,7 @@ export const buildLog = [
       {
         who: 'Lucas',
         what: 'Built the physical hive component.',
+        photos: ['/log/2026-10-18-hive.jpg'],
       },
     ],
   },

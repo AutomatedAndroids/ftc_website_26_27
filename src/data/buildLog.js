@@ -8,6 +8,7 @@ export const buildLog = [
       {
         who: 'Jeremy and Andrew',
         what: 'Built the course component with the hive.',
+        photos: ['/log/2026-10-18-course.jpg'],
       },
       {
         who: 'Niels',

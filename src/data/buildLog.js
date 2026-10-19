@@ -3,6 +3,27 @@
 // Photos go in public/log/ — photos is optional per item and can hold more than one.
 export const buildLog = [
   {
+    date: '2026-10-18',
+    items: [
+      {
+        who: 'Jeremy and Andrew',
+        what: 'Built the course component with the hive.',
+      },
+      {
+        who: 'Niels',
+        what: "Calibrated the robot's encoded movement in Java.",
+      },
+      {
+        who: 'Josh and Ryan',
+        what: 'Continued designing the shooting system with a wheel in CAD.',
+      },
+      {
+        who: 'Lucas',
+        what: 'Built the physical hive component.',
+      },
+    ],
+  },
+  {
     date: '2026-09-27',
     items: [
       {

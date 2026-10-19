@@ -18,6 +18,7 @@ export const buildLog = [
       {
         who: 'Josh and Ryan',
         what: 'Continued designing the shooting system with a wheel in CAD.',
+        photos: ['/log/2026-10-18-shooter-cad.jpg'],
       },
       {
         who: 'Lucas',

@@ -14,7 +14,7 @@ export const buildLog = [
         who: 'Josh, Ryan, Lucas, and Niels',
         what: "Sharpened the mechanics of the roof shooter the ball emerges from: the big ball is accelerated by wheels, and the small ball is boosted by a ramp.",
         photos: ['/log/2026-10-25-shooter-mechanics.jpg', '/log/2026-10-25-shooter-cad.jpg'],
-        videos: ['/log/2026-10-25-shooter-test.mp4'],
+        videos: ['/log/2026-10-25-shooter-test.mp4', '/log/2026-10-25-shooter-test-2.mp4'],
       },
     ],
   },

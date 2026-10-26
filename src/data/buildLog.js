@@ -3,6 +3,21 @@
 // Photos go in public/log/ — photos is optional per item and can hold more than one.
 export const buildLog = [
   {
+    date: '2026-10-25',
+    items: [
+      {
+        who: 'Leran and Andrew',
+        what: 'Built a smaller chassis and reimplemented the wheels.',
+        photos: ['/log/2026-10-25-chassis-cad.jpg', '/log/2026-10-25-chassis-wheels.jpg'],
+      },
+      {
+        who: 'Josh, Ryan, Lucas, and Niels',
+        what: "Sharpened the mechanics of the roof shooter the ball emerges from: the big ball is accelerated by wheels, and the small ball is boosted by a ramp.",
+        photos: ['/log/2026-10-25-shooter-mechanics.jpg'],
+      },
+    ],
+  },
+  {
     date: '2026-10-18',
     items: [
       {

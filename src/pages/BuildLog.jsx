@@ -31,14 +31,23 @@ export default function BuildLog() {
               {entry.items.map((item, i) => (
                 <li key={i} className="text-gray-300">
                   <span className="font-medium text-white">{item.who}</span> &mdash; {item.what}
-                  {item.photos?.length > 0 && (
+                  {(item.photos?.length > 0 || item.videos?.length > 0) && (
                     <div className="mt-2 flex flex-wrap gap-2">
-                      {item.photos.map((src) => (
+                      {item.photos?.map((src) => (
                         <img
                           key={src}
                           src={src}
                           alt={item.what}
                           className="max-h-96 rounded-lg border border-slate-800 object-cover"
+                        />
+                      ))}
+                      {item.videos?.map((src) => (
+                        <video
+                          key={src}
+                          src={src}
+                          controls
+                          playsInline
+                          className="max-h-96 rounded-lg border border-slate-800"
                         />
                       ))}
                     </div>

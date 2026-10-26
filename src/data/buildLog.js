@@ -1,6 +1,6 @@
 // Add a new entry at the TOP of this array each time you want to log a day's work.
-// date: 'YYYY-MM-DD', items: [{ who: 'Names', what: 'What they did.', photos: ['/log/filename.jpg'] }, ...]
-// Photos go in public/log/ — photos is optional per item and can hold more than one.
+// date: 'YYYY-MM-DD', items: [{ who, what, photos: ['/log/filename.jpg'], videos: ['/log/filename.mp4'] }, ...]
+// Photos/videos go in public/log/ — both are optional per item and can hold more than one.
 export const buildLog = [
   {
     date: '2026-10-25',
@@ -8,12 +8,13 @@ export const buildLog = [
       {
         who: 'Leran and Andrew',
         what: 'Built a smaller chassis and reimplemented the wheels.',
-        photos: ['/log/2026-10-25-chassis-cad.jpg', '/log/2026-10-25-chassis-wheels.jpg'],
+        photos: ['/log/2026-10-25-chassis-wheels.jpg'],
       },
       {
         who: 'Josh, Ryan, Lucas, and Niels',
         what: "Sharpened the mechanics of the roof shooter the ball emerges from: the big ball is accelerated by wheels, and the small ball is boosted by a ramp.",
-        photos: ['/log/2026-10-25-shooter-mechanics.jpg'],
+        photos: ['/log/2026-10-25-shooter-mechanics.jpg', '/log/2026-10-25-shooter-cad.jpg'],
+        videos: ['/log/2026-10-25-shooter-test.mp4'],
       },
     ],
   },

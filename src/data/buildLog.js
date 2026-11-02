@@ -3,6 +3,29 @@
 // Photos/videos go in public/log/ — both are optional per item and can hold more than one.
 export const buildLog = [
   {
+    date: '2026-11-01',
+    items: [
+      {
+        who: 'Niels, Leran, Ryan, and Josh',
+        what: 'Designed and cut a wood panel with a laser cutter, working on a new shooter with an adjustable ramp for variable-size shooting.',
+        photos: ['/log/2026-11-01-laser-design.jpg', '/log/2026-11-01-laser-cutting.jpg'],
+      },
+      {
+        who: 'Andrew and Lucas',
+        what: 'Built a robot with a new intake that the shooter will route through.',
+      },
+      {
+        who: 'Jeremy',
+        what: 'Replaced the U-shape piece on the back of the robot.',
+        photos: ['/log/2026-11-01-back-fix.jpg'],
+      },
+      {
+        who: 'The team',
+        what: "The robots are preparing for next week's scrimmage!",
+      },
+    ],
+  },
+  {
     date: '2026-10-25',
     items: [
       {
